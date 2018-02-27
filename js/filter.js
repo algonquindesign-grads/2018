@@ -28,23 +28,23 @@ $('#select-specialty').on('change', function () {
       $brandingName.show();
       break;
     case 'option-illustration':
-      $illustrationImage.children("image").removeAttr("filter");
+      $illustrationImage.removeAttr("filter");
       $illustrationName.show();
       break;
     case 'option-motion':
-      $motionImage.children("image").removeAttr("filter");
+      $motionImage.removeAttr("filter");
       $motionName.show();
       break;
     case 'option-print':
-      $printImage.children("image").removeAttr("filter");
+      $printImage.removeAttr("filter");
       $printName.show();
       break;
     case 'option-ux-ui':
-      $uxUiImage.children("image").removeAttr("filter");
+      $uxUiImage.removeAttr("filter");
       $uxUiName.show();
       break;
     case 'option-web':
-      $webImage.children("image").removeAttr("filter");
+      $webImage.removeAttr("filter");
       $webName.show();
       break;
   }
