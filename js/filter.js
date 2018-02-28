@@ -1,35 +1,51 @@
-var $All = $('[data-category] image');
-var $Branding = $('[data-category*=branding] image');
-var $Illustration = $('[data-category*=illustration] image');
-var $Motion = $('[data-category*=motion]');
-var $Print = $('[data-category*=print]');
-var $UxUi = $('[data-category*=ux-ui]');
-var $Web = $('[data-category*=web]');
+var $allImage = $('[data-category] image');
+var $brandingImage = $('[data-category*=branding] image');
+var $illustrationImage = $('[data-category*=illustration] image');
+var $motionImage = $('[data-category*=motion] image');
+var $printImage = $('[data-category*=print] image');
+var $uxUiImage = $('[data-category*=ux-ui] image');
+var $webImage = $('[data-category*=web] image');
+
+var $allName = $('[data-category] .name');
+var $brandingName = $('[data-category*=branding] .name');
+var $illustrationName = $('[data-category*=illustration] .name');
+var $motionName = $('[data-category*=motion] .name');
+var $printName = $('[data-category*=print] .name');
+var $uxUiName = $('[data-category*=ux-ui] .name');
+var $webName = $('[data-category*=web] .name');
 
 $('#select-specialty').on('change', function () {
-  $All.attr("filter", "url(#pixelate)");
-  console.log($All);
+  $allImage.attr("filter", "url(#pixelate)");
+  $allName.hide();
+
   switch ($(this).val()) {
     case 'option-all':
-      $All.removeAttr("filter");
+      $allImage.removeAttr("filter");
+      $allName.show();
       break;
     case 'option-branding':
-      $Branding.removeAttr("filter");
+      $brandingImage.removeAttr("filter");
+      $brandingName.show();
       break;
     case 'option-illustration':
-      $Illustration.children("image").removeAttr("filter");
+      $illustrationImage.removeAttr("filter");
+      $illustrationName.show();
       break;
     case 'option-motion':
-      $Motion.children("image").removeAttr("filter");
+      $motionImage.removeAttr("filter");
+      $motionName.show();
       break;
     case 'option-print':
-      $Print.children("image").removeAttr("filter");
+      $printImage.removeAttr("filter");
+      $printName.show();
       break;
     case 'option-ux-ui':
-      $UxUi.children("image").removeAttr("filter");
+      $uxUiImage.removeAttr("filter");
+      $uxUiName.show();
       break;
     case 'option-web':
-      $Web.children("image").removeAttr("filter");
+      $webImage.removeAttr("filter");
+      $webName.show();
       break;
   }
 });
