@@ -6,12 +6,19 @@
   background-color: #16B5B3;
 }
 
-.name {
+.designer-name {
   margin-bottom: calc(1.3rem + .325rem);
   margin-left: calc(1.3rem + .325rem);
   margin-right: calc(1.3rem + .325rem);
 
   color: #fff;
+}
+
+.designer-portrait {
+  object-fit: cover;
+  object-position: center top;
+  width: 100%;
+  height: 100%;
 }
 
 .border {
@@ -46,7 +53,7 @@ canvas {
 
 @media only screen and (min-width: 38em) {
 
-  .name {
+  .designer-name {
     margin-bottom: calc(1.4rem + .35rem);
     margin-left: calc(1.4rem + .35rem);
     margin-right: calc(1.4rem + .35rem);
@@ -60,7 +67,7 @@ canvas {
 
 @media only screen and (min-width: 60em) {
 
-  .name {
+  .designer-name {
     margin-bottom: calc(1.5rem + .375rem);
     margin-left: calc(1.5rem + .375rem);
     margin-right: calc(1.5rem + .375rem);

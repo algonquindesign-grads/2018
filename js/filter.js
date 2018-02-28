@@ -1,51 +1,59 @@
-var $allImage = $('[data-category] image');
-var $brandingImage = $('[data-category*=branding] image');
-var $illustrationImage = $('[data-category*=illustration] image');
-var $motionImage = $('[data-category*=motion] image');
-var $printImage = $('[data-category*=print] image');
-var $uxUiImage = $('[data-category*=ux-ui] image');
-var $webImage = $('[data-category*=web] image');
-
-var $allName = $('[data-category] .name');
-var $brandingName = $('[data-category*=branding] .name');
-var $illustrationName = $('[data-category*=illustration] .name');
-var $motionName = $('[data-category*=motion] .name');
-var $printName = $('[data-category*=print] .name');
-var $uxUiName = $('[data-category*=ux-ui] .name');
-var $webName = $('[data-category*=web] .name');
+var $all = $('[data-category]');
+var $branding = $('[data-category*=branding]');
+var $illustration = $('[data-category*=illustration]');
+var $motion = $('[data-category*=motion]');
+var $print = $('[data-category*=print]');
+var $uxUi = $('[data-category*=ux-ui]');
+var $web = $('[data-category*=web]');
 
 $('#select-specialty').on('change', function () {
-  $allImage.attr("filter", "url(#pixelate)");
-  $allName.hide();
+  $all.find('.designer-portrait').css('object-position', 'center bottom');
+  $all.find('.designer-link').css('pointer-events', 'none');
+  $all.find('.border-container').css('opacity', '0');
+  $all.find('.designer-name').hide();
 
   switch ($(this).val()) {
     case 'option-all':
-      $allImage.removeAttr("filter");
-      $allName.show();
+      $all.find('.designer-portrait').css('object-position', 'center top');
+      $all.find('.designer-link').css('pointer-events', 'auto');
+      $all.find('.border-container').css('opacity', '1');
+      $all.find('.designer-name').show();
       break;
     case 'option-branding':
-      $brandingImage.removeAttr("filter");
-      $brandingName.show();
+      $branding.find('.designer-portrait').css('object-position', 'center top');
+      $branding.find('.designer-link').css('pointer-events', 'auto');
+      $branding.find('.border-container').css('opacity', '1');
+      $branding.find('.designer-name').show();
       break;
     case 'option-illustration':
-      $illustrationImage.removeAttr("filter");
-      $illustrationName.show();
+      $illustration.find('.designer-portrait').css('object-position', 'center top');
+      $illustration.find('.designer-link').css('pointer-events', 'auto');
+      $illustration.find('.border-container').css('opacity', '1');
+      $illustration.find('.designer-name').show();
       break;
     case 'option-motion':
-      $motionImage.removeAttr("filter");
-      $motionName.show();
+      $motion.find('.designer-portrait').css('object-position', 'center top');
+      $motion.find('.designer-link').css('pointer-events', 'auto');
+      $motion.find('.border-container').css('opacity', '1');
+      $motion.find('.designer-name').show();
       break;
     case 'option-print':
-      $printImage.removeAttr("filter");
-      $printName.show();
+      $print.find('.designer-portrait').css('object-position', 'center top');
+      $print.find('.designer-link').css('pointer-events', 'auto');
+      $print.find('.border-container').css('opacity', '1');
+      $print.find('.designer-name').show();
       break;
     case 'option-ux-ui':
-      $uxUiImage.removeAttr("filter");
-      $uxUiName.show();
+      $uxUi.find('.designer-portrait').css('object-position', 'center top');
+      $uxUi.find('.designer-link').css('pointer-events', 'auto');
+      $uxUi.find('.border-container').css('opacity', '1');
+      $uxUi.find('.designer-name').show();
       break;
     case 'option-web':
-      $webImage.removeAttr("filter");
-      $webName.show();
+      $web.find('.designer-portrait').css('object-position', 'center top');
+      $web.find('.designer-link').css('pointer-events', 'auto');
+      $web.find('.border-container').css('opacity', '1');
+      $web.find('.designer-name').show();
       break;
   }
 });
