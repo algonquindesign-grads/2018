@@ -1,8 +1,8 @@
 ---
 layout: profile
-name: Imran Chiwdhury
+name: Imran Chowdhury
 first_name: Imran
-last_name: Chiwdhury
+last_name: Chowdhury
 specialization: Branding, Print
 specialty:
   - branding
