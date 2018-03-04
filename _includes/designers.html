@@ -21,10 +21,10 @@
           <a class="designer-link block relative" href="{{site.baseurl}}/designers/{{ designer.name | replace: ' ', '-' | downcase }}">
         {% endunless %}
           <div class="embed embed-1by1">
-            <img class="designer-portrait embed-item" src="https://grads.images.algonquindesign.ca/2018/portraits/test-portrait.jpg" alt="Portrait of {{designer.first_name}} {{designer.last_name}}">
+            <img class="designer-portrait embed-item" src="https://grads.images.algonquindesign.ca/2018/portraits-home/{{ designer.name | replace: ' ', '-' | downcase }}.jpg" alt="Portrait of {{designer.first_name}} {{designer.last_name}}">
           </div>
           {% unless designer.filler %}
-          <strong class="designer-name pin-bl micro text-upper bold">{{designer.first_name}} {{designer.last_name | slice: 0 }}</strong>
+          <strong class="designer-name pin-bl micro text-upper">{{designer.first_name}} {{designer.last_name | slice: 0 }}</strong>
           <div class="border-container absolute h-1 w-1 island-1-2">
             <div class="border h-1 w-1"></div>
           </div>
