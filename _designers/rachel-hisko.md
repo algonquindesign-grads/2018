@@ -12,7 +12,7 @@ behance_link: https://www.behance.net/RHisko11
 vimeo_link: https://vimeo.com/user56592466
 instagram_link: https://www.instagram.com/hiskosdesigns
 linkedin_link: https://www.linkedin.com/in/rachel-hisko-3585b1108/
-bio: My passion lies within designing human-centred interfaces and I strongly believe it will help me make a significant impact on the world.
+bio: My passion lies within designing human-centered interfaces and I strongly believe it will help me make a significant impact on the world.
 github_link:
 dribbble_link:
 ---
