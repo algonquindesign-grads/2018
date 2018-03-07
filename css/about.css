@@ -20,12 +20,13 @@
 @media only screen and (min-width: 38em) {
 
   .about-tagline {
-    border-right: solid 5px #fff;
+    border-right: solid 3px #fff;
     font-size: 2.4rem;
   }
 
   .about-statement {
     font-size: 1.4rem;
+    border-left: solid 3px #fff;
   }
 
 
