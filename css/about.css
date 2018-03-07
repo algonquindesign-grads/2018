@@ -1,0 +1,31 @@
+.about {
+  background-color: #19aeab;
+}
+
+p {
+  color: #fff;
+}
+
+.about-tagline {
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 0 1.3rem 0 1.3rem;
+}
+
+.about-statement {
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .about-tagline {
+    border-right: solid 5px #fff;
+    font-size: 2.4rem;
+  }
+
+  .about-statement {
+    font-size: 1.4rem;
+  }
+
+
+}
