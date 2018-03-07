@@ -1,0 +1,20 @@
+.play-sound {
+  margin-left: .5em;
+  z-index: 100;
+  border: none;
+  background: transparent;
+  color: #fff;
+  border: none;
+  transition: .3s ease-in-out;
+  border-radius: 0 0 2px 0;
+}
+
+.play-sound:hover {
+  opacity: .65;
+  background: transparent;
+}
+
+.play-sound:focus {
+  background: transparent;
+  outline: none;
+}
