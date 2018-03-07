@@ -16,4 +16,16 @@ linkedin_link:
 bio: I am a Graphic Designer specializing in branding and sport application design. Sport jerseys are incredible & designing them would be cool!
 github_link:
 dribbble_link:
+
+slot-1-image: true
+slot-1-video:
+
+slot-2-image: true
+slot-2-video:
+
+slot-3-image: true
+slot-3-video:
+
+slot-4-image:
+slot-4-video: watch?v=zfo79qqxfts
 ---

@@ -16,4 +16,16 @@ linkedin_link:
 bio: Hola I'm Jenn. I'm social, detailed, determined, love long walks on the bea.. oh wrong website. Either way, I'm here for you.. as a designer
 github_link:
 dribbble_link:
+
+slot-1-image: true
+slot-1-video:
+
+slot-2-image: true
+slot-2-video:
+
+slot-3-image: true
+slot-3-video:
+
+slot-4-image: true
+slot-4-video:
 ---
