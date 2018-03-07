@@ -16,4 +16,16 @@ linkedin_link: https://www.linkedin.com/in/katrin-emery/
 bio: Human specializing in creating positive design and working with happy people and companies. I draw pictures, make brands, and create motion.
 github_link:
 dribbble_link: https://dribbble.com/KatrinEmery
+
+slot-1-image: true
+slot-1-video:
+
+slot-2-image:
+slot-2-video: 256211764
+
+slot-3-image: true
+slot-3-video:
+
+slot-4-image: true
+slot-4-video:
 ---

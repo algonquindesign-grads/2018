@@ -5,7 +5,7 @@ first_name: Geni
 last_name: Triantis
 specialization: Print, Illustration
 specialty:
-  - print 
+  - print
   - illustration
 email: hello@geni.graphics
 website: geni.graphics
@@ -16,4 +16,16 @@ linkedin_link:
 bio: Illustrator, designer, HUGE book and movie nerd. Intensely fascinated with history. Also it's Geni (Gen-ee) NOT Genie, thank you very much.
 github_link:
 dribbble_link:
+
+slot-1-image: true
+slot-1-video:
+
+slot-2-image: true
+slot-2-video:
+
+slot-3-image: true
+slot-3-video:
+
+slot-4-image: true
+slot-4-video:
 ---

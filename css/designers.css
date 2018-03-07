@@ -6,7 +6,8 @@
   background-color: #51ABAB;
 }
 
-.designer-name {
+.designer-name,
+.prof-name {
   margin-bottom: calc(1.3rem + .325rem);
   margin-left: calc(1.3rem + .325rem);
   margin-right: calc(1.3rem + .325rem);

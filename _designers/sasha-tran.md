@@ -16,4 +16,16 @@ linkedin_link: https://www.linkedin.com/in/hanh-thao-sasha-tran-18632ab1/
 bio: A visual thinker and an innovative problem solver who animates thoughts into motion pictures & illustrate ideas into a creative success.
 github_link:
 dribbble_link:
+
+slot-1-image: true
+slot-1-video:
+
+slot-2-image:
+slot-2-video: 250348699
+
+slot-3-image: true
+slot-3-video:
+
+slot-4-image:
+slot-4-video: 210486187
 ---

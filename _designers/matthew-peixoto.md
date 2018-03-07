@@ -16,4 +16,16 @@ linkedin_link: https://www.linkedin.com/in/matthew-peixoto-a84906122/
 bio: I have 5 hex colour codes memorized. I'm also into UI/UX design and front-end web development.
 github_link: https://github.com/matthewpeixoto
 dribbble_link:
+
+slot-1-image: true
+slot-1-video:
+
+slot-2-image: true
+slot-2-video:
+
+slot-3-image:
+slot-3-video:
+
+slot-4-image:
+slot-4-video:
 ---

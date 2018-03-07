@@ -1,29 +1,49 @@
 <ul itemref="data-creator" itemscope itemtype="http://schema.org/CreativeWork" class="profile-gallery list-group push-0">
-  {% if page.piece-1 %}
+  {% if page.slot-1-image or page.slot-1-video %}
     <li class="push-1-2">
       <div class="embed embed-16by9">
-        <img itemprop="image" class="embed-item" src="{{page.piece-1}}" alt="">
+        {% if page.slot-1-image %}
+          <img itemprop="image" class="embed-item" src="https://grads.images.algonquindesign.ca/2018/portfolios/{{page.last_name | downcase}}_{{page.first_name | downcase}}/slot-1.jpg" alt="">
+        {% endif %}
+        {% if page.slot-1-video %}
+          <iframe itemprop="video" class="embed-item" src="https://player.vimeo.com/video/{{page.slot-1-video}}?color=19aeab&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        {% endif %}
       </div>
     </li>
   {% endif %}
-  {% if page.piece-2 %}
+  {% if page.slot-2-image or page.slot-2-video %}
     <li class="push-1-2">
       <div class="embed embed-16by9">
-        <img itemprop="image" class="embed-item" src="{{page.piece-2}}" alt="">
+        {% if page.slot-2-image %}
+          <img itemprop="image" class="embed-item" src="https://grads.images.algonquindesign.ca/2018/portfolios/{{page.last_name | downcase}}_{{page.first_name | downcase}}/slot-2.jpg" alt="">
+        {% endif %}
+        {% if page.slot-2-video %}
+          <iframe itemprop="video" class="embed-item" src="https://player.vimeo.com/video/{{page.slot-2-video}}?color=19aeab&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        {% endif %}
       </div>
     </li>
   {% endif %}
-  {% if page.piece-3 %}
+  {% if page.slot-3-image or page.slot-3-video %}
     <li class="push-1-2">
       <div class="embed embed-16by9">
-        <img itemprop="image" class="embed-item" src="{{page.piece-3}}" alt="">
+        {% if page.slot-3-image %}
+          <img itemprop="image" class="embed-item" src="https://grads.images.algonquindesign.ca/2018/portfolios/{{page.last_name | downcase}}_{{page.first_name | downcase}}/slot-3.jpg" alt="">
+        {% endif %}
+        {% if page.slot-3-video %}
+          <iframe itemprop="video" class="embed-item" src="https://player.vimeo.com/video/{{page.slot-3-video}}?color=19aeab&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        {% endif %}
       </div>
     </li>
   {% endif %}
-  {% if page.piece-4 %}
+  {% if page.slot-4-image or page.slot-4-video %}
     <li class="push-1-2">
       <div class="embed embed-16by9">
-        <img itemprop="image" class="embed-item" src="{{page.piece-4}}" alt="">
+        {% if page.slot-4-image %}
+          <img itemprop="image" class="embed-item" src="https://grads.images.algonquindesign.ca/2018/portfolios/{{page.last_name | downcase}}_{{page.first_name | downcase}}/slot-4.jpg" alt="">
+        {% endif %}
+        {% if page.slot-4-video %}
+          <iframe itemprop="video" class="embed-item" src="https://player.vimeo.com/video/{{page.slot-4-video}}?color=19aeab&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        {% endif %}
       </div>
     </li>
   {% endif %}
