@@ -10,4 +10,4 @@
 {% include_relative footer.css %}
 {% include_relative designers.css %}
 {% include_relative profile.css %}
-
+{% include_relative thanks.css %}
