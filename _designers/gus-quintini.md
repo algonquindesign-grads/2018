@@ -16,4 +16,16 @@ linkedin_link: https://www.linkedin.com/in/gustavo-quintini-31b04710b/
 bio: I have always been the loud outgoing person out of the bunch. Graphic Design is a way for me to give my obnoxious energy back to the people.
 github_link:
 dribbble_link:
+
+slot-1-image: true
+slot-1-video:
+
+slot-2-image: true
+slot-2-video:
+
+slot-3-image: true
+slot-3-video:
+
+slot-4-image: true
+slot-4-video:
 ---

@@ -16,4 +16,16 @@ linkedin_link: https://www.linkedin.com/in/emma-ryan-85994814b/
 bio: Hi, I'm Emma. As is typical with the creatively-inclined, I've loved making things for as long as I can remember. Take a peek at my website!
 github_link:
 dribbble_link:
+
+slot-1-image: true
+slot-1-video:
+
+slot-2-image: true
+slot-2-video:
+
+slot-3-image: true
+slot-3-video:
+
+slot-4-image: true
+slot-4-video:
 ---

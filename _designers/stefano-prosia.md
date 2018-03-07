@@ -16,4 +16,16 @@ linkedin_link:
 bio: I'm funny, handsome and Italian.. what's not to love. I use hand gestures while I talk and my DNA is made up of pasta. Sorry if I'm yelling.
 github_link:
 dribbble_link:
+
+slot-1-image: true
+slot-1-video:
+
+slot-2-image:
+slot-2-video: 258329301
+
+slot-3-image: true
+slot-3-video:
+
+slot-4-image: true
+slot-4-video:
 ---
