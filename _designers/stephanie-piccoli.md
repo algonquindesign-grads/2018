@@ -16,4 +16,16 @@ linkedin_link: http://linkedin.com/in/stephanie-piccoli-80a97976
 bio: I was born in Brazil and spent much of my days by the sea. Now, spending most of my days in the snow my passions are UI/UX and branding.
 github_link:
 dribbble_link:
+
+slot-1-image: true
+slot-1-video:
+
+slot-2-image:
+slot-2-video: 249972946
+
+slot-3-image: true
+slot-3-video:
+
+slot-4-image: true
+slot-4-video:
 ---
