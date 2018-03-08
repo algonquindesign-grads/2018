@@ -27,7 +27,8 @@
 }
 
 .designer-link:focus {
-  outline-offset: 0;
+  border: 3px solid rgba(255, 255, 255, .65);
+  outline: 0;
   z-index: 1000;
 }
 
