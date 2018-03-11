@@ -17,13 +17,13 @@ bio: I have 5 hex colour codes memorized. I'm also into UI/UX design and front-e
 github_link: https://github.com/matthewpeixoto
 dribbble_link:
 
-slot-1-image: true
-slot-1-video:
+slot-1-image:
+slot-1-video: 259570445
 
 slot-2-image: true
 slot-2-video:
 
-slot-3-image:
+slot-3-image: true
 slot-3-video:
 
 slot-4-image:
