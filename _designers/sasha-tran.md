@@ -1,7 +1,7 @@
 ---
 layout: profile
 name: Sasha Tran
-first_name: Hanh-Thao “Sasha”
+first_name: Hanh-Thao (Sasha)
 last_name: Tran
 specialization: Motion, UX/UI
 specialty:
