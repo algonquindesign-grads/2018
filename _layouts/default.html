@@ -59,9 +59,9 @@
     {% else %}
       <nav class="unit xs-1 s-3-4 nav text-center" role="navigation">
         <ul class="list-group-inline h-1 push-0 text-upper bold micro teal">
-          <li class="h-1 push-r-1-2"><a class="ib h-1 island-1-2 teal" href="{% if page.url == '/designers/alexandra-philip/' %}{{site.baseurl}}/designers/victoria-doherty/{% else %}{{site.baseurl}}/{{page.previous.url}}{% endif %}" aria-label="Previous"><span>Prev</span></a></li>
+          <li class="h-1 push-r-1-2"><a class="ib h-1 island-1-2 teal" href="{% if page.url == '/designers/alexandra-philip/' %}{{site.baseurl}}/designers/victoria-doherty/{% else %}{{site.baseurl}}{{page.previous.url}}{% endif %}" aria-label="Previous"><span>Prev</span></a></li>
           <li class="h-1 push-r-1-2"><a class="ib h-1 island-1-2 teal" href="{{site.baseurl}}/" aria-label="Home"><span>Home</span></a></li>
-          <li class="h-1"><a class="ib h-1 island-1-2 teal" href="{% if page.url == '/designers/victoria-doherty/' %}{{site.baseurl}}/designers/alexandra-philip/{% else %}{{site.baseurl}}/{{page.next.url}}{% endif %}" aria-label="Next"><span>Next</span></a></li>
+          <li class="h-1"><a class="ib h-1 island-1-2 teal" href="{% if page.url == '/designers/victoria-doherty/' %}{{site.baseurl}}/designers/alexandra-philip/{% else %}{{site.baseurl}}{{page.next.url}}{% endif %}" aria-label="Next"><span>Next</span></a></li>
         </ul>
       </nav>
     {% endif %}
@@ -83,6 +83,11 @@
 
     });
   </script>
+
+  <script>
+    $( "#designers-list li:nth-child(18), #designers-list li:nth-child(36)" ).after('<div class="unit xs-1-2 m-1-3 l-1-4 xl-1-6">' + '<div class="embed embed-1by1">' + '<img class="embed-item" src="https://grads.images.algonquindesign.ca/2018/portraits-home/prof-filler.jpg" alt="" />' + '</div>' + '</div>');
+  </script>
+
   <script type="text/javascript" src="{{site.baseurl}}/js/filter.js"></script>
   <script type="text/javascript" src="{{site.baseurl}}/js/hero.js"></script>
 </body>
