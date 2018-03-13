@@ -1,18 +1,18 @@
 .gradshow-contain {
-  border: solid 8px var(--color-purple);
-  margin: 0 2rem 0 2rem;
+  border: .65rem solid #253d87;
+  border-image-source: linear-gradient(-45deg, #1aadac, #253d87);
+  border-image-slice: 1;
 }
 
-.gradshow-contain h3 {
-  color: var(--color-purple);
+.gradshow-content {
+  max-width: 72em;
 }
 
-.gradshow-contain p {
-  color: var(--color-teal);
+.gradshow-jumble {
+  margin-bottom: 1.95rem;
 }
 
 .jumble {
-  padding-bottom: 3rem;
   max-height: 256px;
 }
 
@@ -22,15 +22,29 @@
 
 @media only screen and (min-width: 38em) {
 
+  .gradshow-jumble {
+    margin-bottom: 0;
+  }
+
   .jumble {
-    padding-bottom: 0rem;
-    padding-right: 1rem;
-    max-height: 350px;
+    max-height: 384px;
   }
 
   .gradshow-info {
     text-align: left;
   }
 
+  .gradshow-contain {
+    border-width: .7rem;
+  }
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .gradshow-contain {
+     border-width: .75rem;
+  }
 
 }
