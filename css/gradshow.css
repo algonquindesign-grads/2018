@@ -1,12 +1,36 @@
 .gradshow-contain {
-  border: solid 4px var(--color-purple);
+  border: solid 8px var(--color-purple);
   margin: 0 2rem 0 2rem;
+}
+
+.gradshow-contain h3 {
+  color: var(--color-purple);
+}
+
+.gradshow-contain p {
+  color: var(--color-teal);
 }
 
 .jumble {
   padding-bottom: 3rem;
+  max-height: 256px;
 }
 
-h3 {
-  color: var(--color-purple);
+.gradshow-info {
+  text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .jumble {
+    padding-bottom: 0rem;
+    padding-right: 1rem;
+    max-height: 350px;
+  }
+
+  .gradshow-info {
+    text-align: left;
+  }
+
+
 }
