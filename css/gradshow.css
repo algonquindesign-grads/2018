@@ -1,0 +1,12 @@
+.gradshow-contain {
+  border: solid 4px var(--color-purple);
+  margin: 0 2rem 0 2rem;
+}
+
+.jumble {
+  padding-bottom: 3rem;
+}
+
+h3 {
+  color: var(--color-purple);
+}
