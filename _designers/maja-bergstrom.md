@@ -23,9 +23,9 @@ slot-1-video:
 slot-2-image: true
 slot-2-video:
 
-slot-3-image: true
-slot-3-video:
+slot-3-image:
+slot-3-video: 249840139
 
-slot-4-image: true
+slot-4-image:
 slot-4-video:
 ---
