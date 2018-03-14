@@ -9,7 +9,7 @@ specialty:
   - print
 email: contact@itschris.ca
 website: itschris.ca
-behance_link: https://www.behance.net/chrisdilauro
+behance_link:
 vimeo_link:
 instagram_link:
 linkedin_link:
