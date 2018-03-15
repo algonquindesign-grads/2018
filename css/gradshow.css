@@ -20,6 +20,11 @@
   text-align: center;
 }
 
+.gradshow-gutter {
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+}
+
 @media only screen and (min-width: 38em) {
 
   .gradshow-jumble {
@@ -46,5 +51,15 @@
   .gradshow-contain {
      border-width: .75rem;
   }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .gradshow-gutter {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 
 }

@@ -53,6 +53,10 @@ canvas {
   width: 100%;
 }
 
+#profs ol li {
+  background-color: #27AEAB;
+}
+
 @media only screen and (min-width: 38em) {
 
   .designer-name {
