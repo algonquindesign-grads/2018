@@ -16,7 +16,7 @@
 
   <ol class="designers grid list-group l-gutter" id="designers-list">
     {% for designer in site.designers %}
-      <li class="designer unit xs-1-2 m-1-3 l-1-4 xl-1-6 relative" data-category="{{designer.specialty[0]}} {{designer.specialty[1]}}">
+      <li class="designer unit xs-1-2 m-1-3 l-1-4 xl-1-6 relative chop" data-category="{{designer.specialty[0]}} {{designer.specialty[1]}}">
         {% unless designer.filler %}
           <a class="designer-link block relative" href="{{site.baseurl}}/designers/{{ designer.name | replace: ' ', '-' | downcase }}">
         {% endunless %}

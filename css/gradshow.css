@@ -43,6 +43,10 @@
     border-width: .7rem;
   }
 
+  .gradshow-gutter {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
 
 }
 
@@ -60,6 +64,5 @@
     padding-left: 0;
     padding-right: 0;
   }
-
 
 }
