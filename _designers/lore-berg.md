@@ -9,7 +9,7 @@ specialty:
   - web
 email: connect@graphicsoflore.ca
 website: graphicsoflore.ca
-behance_link: https://www.behance.net/berg0215fb36
+behance_link: https://www.behance.net/graphicsoflore
 vimeo_link: https://vimeo.com/user56597140
 instagram_link: https://www.instagram.com/graphics.of.lore/
 linkedin_link: https://www.linkedin.com/in/lore-berg-a3232211b/
@@ -26,6 +26,6 @@ slot-2-video:
 slot-3-image: true
 slot-3-video:
 
-slot-4-image: true
-slot-4-video:
+slot-4-image:
+slot-4-video: 259924228
 ---
