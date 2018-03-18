@@ -7,14 +7,6 @@
   text-decoration: none;
 }
 
-.nav a:hover {
-  color: #169895;
-}
-
-.nav a:active {
-  color: #13817f;
-}
-
 .nav span {
   display: table-cell;
   vertical-align: middle;

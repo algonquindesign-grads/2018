@@ -20,7 +20,7 @@
         {% unless designer.filler %}
           <a class="designer-link block relative" href="{{site.baseurl}}/designers/{{ designer.name | replace: ' ', '-' | downcase }}">
         {% endunless %}
-          <div class="embed embed-1by1">
+          <div class="embed embed-1by1 chop">
             <img class="designer-portrait embed-item" src="https://grads.images.algonquindesign.ca/2018/portraits-home/{{ designer.name | replace: ' ', '-' | downcase }}.jpg" alt="Portrait of {{designer.first_name}} {{designer.last_name}}">
           </div>
           {% unless designer.filler %}
