@@ -3,10 +3,10 @@ layout: profile
 name: Imran Chowdhury
 first_name: Imran
 last_name: Chowdhury
-specialization: Branding, Print
+specialization: Motion, Illustration
 specialty:
-  - branding
-  - print
+  - motion
+  - illustration
 email: contact@imranland.ca
 website: imranland.ca
 behance_link: https://www.behance.net/chow01055575
