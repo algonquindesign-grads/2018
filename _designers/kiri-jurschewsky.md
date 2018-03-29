@@ -3,9 +3,9 @@ layout: profile
 name: Kiri Jurschewsky
 first_name: Kiri
 last_name: Jurschewsky
-specialization: Motion, UX/UI
+specialization: Illustration, UX/UI
 specialty:
-  - motion
+  - illustration
   - ux-ui
 email: kjurschewsky@hotmail.com
 website: kiri.design
